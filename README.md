@@ -170,7 +170,7 @@ New sign-ups are always customers; only an admin can create staff or admin accou
 
 | Layer    | Tools                                                                                                         |
 | -------- | ------------------------------------------------------------------------------------------------------------- |
-| Backend  | **Laravel 13** (PHP 8.3+), Fortify (auth + 2FA), Eloquent, form requests, policies, notifications             |
+| Backend  | **Laravel 13** (PHP 8.4+), Fortify (auth + 2FA), Eloquent, form requests, policies, notifications             |
 | Frontend | **React 19** + **TypeScript**, **Inertia.js 3** (no separate API needed), Wayfinder (type-safe route helpers) |
 | UI       | **Tailwind CSS 4**, shadcn/ui (Radix primitives), lucide icons, Recharts, `qrcode.react`                      |
 | Database | **MySQL / MariaDB** (XAMPP) or SQLite                                                                         |
@@ -182,7 +182,7 @@ New sign-ups are always customers; only an admin can create staff or admin accou
 
 ### Requirements
 
-- PHP **8.3+** with `pdo_mysql` (or `pdo_sqlite`), `gd`, `mbstring`, `intl`, `zip`
+- PHP **8.4+** with `pdo_mysql` (or `pdo_sqlite`), `gd`, `mbstring`, `intl`, `zip`
 - Composer 2
 - Node.js **22.18+** or **24 LTS**
 - MySQL 8 / MariaDB 10.4+ (XAMPP works), **or** SQLite for a zero-setup try-out
