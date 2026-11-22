@@ -159,7 +159,7 @@ export default function ProductForm({
                             <CardContent className="grid gap-4 sm:grid-cols-2">
                                 <div className="sm:col-span-2">
                                     {text('name', 'Product name', {
-                                        placeholder: 'e.g. Cordless Drill 20V',
+                                        placeholder: 'e.g. Cordless Drill 18V',
                                     })}
                                 </div>
                                 {text('sku', 'SKU / item code', {

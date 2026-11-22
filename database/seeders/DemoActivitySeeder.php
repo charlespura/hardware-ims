@@ -203,7 +203,7 @@ class DemoActivitySeeder extends Seeder
             'expected_at' => now()->addDays(5)->toDateString(),
             'notes' => 'Restock of low-stock tools.',
             'items' => [
-                ['product_id' => $sku('DW123456789')->id, 'quantity' => 10, 'unit_cost' => 1430],
+                ['product_id' => $sku('MW123456789')->id, 'quantity' => 10, 'unit_cost' => 1430],
                 ['product_id' => $sku('LAD789654')->id, 'quantity' => 8, 'unit_cost' => 1800],
                 ['product_id' => $sku('MAK-GA4030')->id, 'quantity' => 6, 'unit_cost' => 2050],
             ],

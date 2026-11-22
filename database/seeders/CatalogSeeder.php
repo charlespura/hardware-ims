@@ -40,7 +40,7 @@ class CatalogSeeder extends Seeder
             // name, category, brand, model, sku, unit, price, stock, reorder, image, specs, featured
             ['Hollow Blocks 4"', 'Building Materials', 'Homel', 'CHB-4', 'PHLFT6R7K9W', 'pc', 21, 250, 100, 'hollow-blocks.jpg', 'Standard 4-inch concrete hollow block for walls and partitions.', true],
             ['Umbrella Roofing Nails', 'Fasteners', null, '2.5"', 'THYQCYRR4XDS', 'kg', 50, 500, 50, 'umbrella-nails.jpg', 'Galvanised umbrella-head nails for GI roofing sheets.', false],
-            ['Cordless Drill 20V', 'Power Tools', 'DeWalt', 'DCD771C2', 'DW123456789', 'set', 1987, 4, 5, 'cordless-drill.jpeg', '20V lithium-ion battery, 1/2" chuck, two-speed transmission.', true],
+            ['Cordless Drill 18V', 'Power Tools', 'Milwaukee', 'M18 2801-20', 'MW123456789', 'set', 1987, 4, 5, 'cordless-drill.jpeg', 'M18 18V lithium-ion battery, 1/2" chuck, two-speed transmission.', true],
             ['Tape Measure 25ft', 'Hand Tools', 'Stanley', '33-725', 'ST987654321', 'pc', 578, 100, 15, 'tape-measure.webp', '25ft nylon-coated blade with thumb lock.', false],
             ['Claw Hammer 16oz', 'Hand Tools', 'Stanley', 'Claw Hammer', 'SN987654', 'pc', 566, 55, 10, 'hammer.webp', 'Steel head with magnetic nail starter and anti-vibration grip.', true],
             ['Screwdriver Set', 'Hand Tools', 'Craftsman', '6-Piece Set', 'SN123789', 'set', 344, 55, 10, 'screwdriver-set.jpg', 'Magnetic tips, ergonomic handles, Phillips and flat heads.', false],
